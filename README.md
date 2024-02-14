@@ -52,3 +52,8 @@ A list of the form (f x) can be evaluated as long as f is:
 For simplicity, we will limit ourselves to 2 standard functions:
 - `+`, which when applied to a list, recursively sums the elements of the list and returns an atom (it cannot be applied to lists containing other functions/expressions)
 - `++`, which when applied to a list, concatenates all component lists (if there are atoms in the list, they are added to the resulting list)
+
+# Testing
+There are multiple tests included, which help us to verify the correctness of the code.
+
+We can run those tests using the included script `check.sh`
